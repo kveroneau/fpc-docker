@@ -1,4 +1,4 @@
-FROM kveroneau/fpc:3.0.4-arm32v7 AS builder
+FROM kveroneau/fpc:3.2.0-amd64 AS builder
 
 COPY hello.pas /root
 
